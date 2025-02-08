@@ -1,0 +1,95 @@
+:root {
+  --blue: #002C30;
+  --red: #D51D4E;
+  --white: #FFFAF3;
+  --teal: #00484C;
+}
+
+
+
+body {
+	background-color: var(--blue);
+}
+
+h1 {
+	color: var(--white);
+	letter-spacing: 1px;
+}
+
+a {
+	color: var(--white);
+}
+
+p {
+	letter-spacing: .2px;
+	line-height: 1.4;
+	margin-top: 20px;
+	color: var(--white);
+}
+
+.red_border {
+	border: 1px solid var(--red);
+	border-radius: 30px;
+	height: 75%;
+	width: 75%;
+}
+
+.pt-sans-regular {
+  font-family: "PT Sans", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.inria-sans-light {
+  font-family: "Inria Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inria-sans-regular {
+  font-family: "Inria Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inria-sans-bold {
+  font-family: "Inria Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inria-sans-light-italic {
+  font-family: "Inria Sans", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.inria-sans-regular-italic {
+  font-family: "Inria Sans", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.inria-sans-bold-italic {
+  font-family: "Inria Sans", serif;
+  font-weight: 700;
+  font-style: italic;
+}
