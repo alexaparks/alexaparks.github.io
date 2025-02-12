@@ -11,8 +11,8 @@ body {
 
 h1 {
 	color: var(--white);
-	letter-spacing: 1px;
   font-size: 35px;
+	letter-spacing: 1px;
   margin-bottom: 0px;
 }
 
@@ -20,7 +20,6 @@ h2 {
   color: var(--white);
   letter-spacing: 1px;
   margin-bottom: 0px;
-  font-size: 25px;
 }
 
 a {
@@ -28,12 +27,12 @@ a {
 }
 
 p {
+  color: var(--white);
+  font-size: 15px;
 	letter-spacing: .2px;
 	line-height: 1.4;
-	margin-top: 10px;
-	color: var(--white);
-  font-size: 15px;
   margin-bottom: 0px;
+	margin-top: 10px;
 }
 
 img {
@@ -47,16 +46,17 @@ nav {
   width: 100%;
   text-align: left;
 }
+
 .bg-body-tertiary {
   background-color: var(--blue) !important;
 }
 
 .navbar-brand {
   color: var(--white);
-  font-size: 15px;
-  font-weight: light;
   line-height: 1.4;
+  font-size: 15px;
   letter-spacing: .2px;
+  font-weight: light;
   margin-bottom: 0px;
   margin-top: 10px;
 }
@@ -70,24 +70,21 @@ nav {
   line-height: 1.4;
   margin-left: 30px;
   margin-top: 25px;
-  
 }
-
 /*navigation styles end*/
 
 /*font styling begin */
-
 .pt-sans-regular {
   font-family: "PT Sans", serif;
-  font-weight: 200;
   font-style: normal;
+  font-weight: 200;
 }
 
 .pt-sans-italic {
   font-family: "PT Sans", serif;
-  font-weight: 200;
-  font-style: italic;
   font-size: 12px;
+  font-style: italic;
+  font-weight: 200;
   letter-spacing: .2px;
   line-height: 1.4;
 }
@@ -103,7 +100,6 @@ nav {
   font-weight: 700;
   font-style: normal;
 }
-
 /*font style end*/
 
 .container-fluid {
@@ -130,7 +126,6 @@ nav {
 
 .text_box {
   padding: 8px 80px;
-  
 }
 
 .image_box {
@@ -168,6 +163,3 @@ nav {
 #about_flower_images {
   height: 120%;
 }
-
-
-
