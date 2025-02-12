@@ -12,6 +12,15 @@ body {
 h1 {
 	color: var(--white);
 	letter-spacing: 1px;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: var(--white);
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  font-size: 25px;
 }
 
 a {
@@ -21,8 +30,10 @@ a {
 p {
 	letter-spacing: .2px;
 	line-height: 1.4;
-	margin-top: 20px;
+	margin-top: 10px;
 	color: var(--white);
+  font-size: 15px;
+  margin-bottom: 0px;
 }
 
 img {
@@ -30,15 +41,41 @@ img {
   width: auto;
 }
 
-.red_border {
-  border-radius: 30px;
-	height: 75%;
-	width: 75%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--red);
+/*navigation stles begin*/
+nav {
+  height: 60px;
+  width: 100%;
+  text-align: left;
 }
+.bg-body-tertiary {
+  background-color: var(--blue) !important;
+}
+
+.navbar-brand {
+  color: var(--white);
+  font-size: 15px;
+  font-weight: light;
+  line-height: 1.4;
+  letter-spacing: .2px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.navbar-brand:hover {
+  cursor: default;
+}
+
+#nav_style {
+  letter-spacing: .2px;
+  line-height: 1.4;
+  margin-left: 30px;
+  margin-top: 25px;
+  
+}
+
+/*navigation styles end*/
+
+/*font styling begin */
 
 .pt-sans-regular {
   font-family: "PT Sans", serif;
@@ -46,28 +83,13 @@ img {
   font-style: normal;
 }
 
-.pt-sans-bold {
+.pt-sans-italic {
   font-family: "PT Sans", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.pt-sans-regular-italic {
-  font-family: "PT Sans", serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: italic;
-}
-
-.pt-sans-bold-italic {
-  font-family: "PT Sans", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.inria-sans-light {
-  font-family: "Inria Sans", serif;
-  font-weight: 300;
-  font-style: normal;
+  font-size: 12px;
+  letter-spacing: .2px;
+  line-height: 1.4;
 }
 
 .inria-sans-regular {
@@ -82,21 +104,70 @@ img {
   font-style: normal;
 }
 
-.inria-sans-light-italic {
-  font-family: "Inria Sans", serif;
-  font-weight: 300;
-  font-style: italic;
+/*font style end*/
+
+.container-fluid {
+  height: 100%;
+  width: 100%;
 }
 
-.inria-sans-regular-italic {
-  font-family: "Inria Sans", serif;
-  font-weight: 400;
-  font-style: italic;
+.d-flex.justify-content-center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.inria-sans-bold-italic {
-  font-family: "Inria Sans", serif;
+.child-container {
+  border: 1px solid var(--red);
+  height: 65%;
+  width: 65%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_box {
+  padding: 8px 80px;
+  
+}
+
+.image_box {
+  padding: 8px 80px;
+}
+
+#portfolio_id {
+  height: 350px;
+  width: auto;
+}
+
+.image_box_2 {
+  padding: 8px 80px;
+}
+
+.text_box_2 {
+  padding: 8px 80px;
+}
+
+.pt-sans-regular_2 {
+  font-family: "PT Sans", serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-top: 5px;
+}
+
+.pt-sans-regular_3 {
+  font-family: "PT Sans", serif;
+  font-size: 15px;
+  font-style: normal;
   font-weight: 700;
-  font-style: italic;
+  margin-top: 5px;
 }
+
+#about_flower_images {
+  height: 120%;
+}
+
+
 
