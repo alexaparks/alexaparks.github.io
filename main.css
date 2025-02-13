@@ -163,3 +163,41 @@ nav {
 #about_flower_images {
   height: 120%;
 }
+
+/*average desktop screens*/
+@media only screen and (max-width: 1279px) {
+body {
+  background-color: blue;
+  
+  }
+}
+
+/*tablets and larger smartphones*/
+@media only screen and (max-width: 768px) {
+body {
+  background-color: green;
+  
+  }
+   .child-container {
+    height: auto;
+  }
+}
+
+/*smaller smartphones*/
+@media only screen and (max-width: 480px) {
+body {
+  background-color: lightblue;
+}
+  .child-container {
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
