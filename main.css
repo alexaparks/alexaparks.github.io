@@ -182,12 +182,15 @@ nav {
 body {
     background-color: var(--blue);
   }
+
   #about_flower_images {
     display: none;
   }
+
   .image_box {
     display: none;
    }
+   
    .image_box_2 {
     display: none;
   }
