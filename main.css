@@ -164,40 +164,46 @@ nav {
   height: 120%;
 }
 
-/*average desktop screens*/
-@media only screen and (max-width: 1279px) {
-body {
-  background-color: blue;
-  
+/*RESPONSIVE DESIGN*/
+/*DESKTOP*/
+@media only screen and (max-width: 1050px) {
+  .child-container {
+    width: 90%;
+  }
+  .text_box {
+    padding: 30px;
+  }
+  .text_box_2 {
+    margin-right: 10px;
   }
 }
-
-/*tablets and larger smartphones*/
+/*TABLETS AND LARGER SMARTPHONES*/
 @media only screen and (max-width: 768px) {
 body {
-  background-color: green;
-  
+    background-color: var(--blue);
   }
-   .child-container {
-    height: auto;
+  #about_flower_images {
+    display: none;
+  }
+  .image_box {
+    display: none;
+   }
+   .image_box_2 {
+    display: none;
   }
 }
-
-/*smaller smartphones*/
+/*SMALLER SCREENS*/
 @media only screen and (max-width: 480px) {
-body {
-  background-color: lightblue;
-}
   .child-container {
     height: auto;
   }
+  .text_box {
+    padding: 50px;
+  }
+  .text_box_2 {
+    padding: 50px;
+  }
+  .image_box {
+    display: none;
+  }
 }
-
-
-
-
-
-
-
-
-
