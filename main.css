@@ -181,6 +181,7 @@ nav {
 @media only screen and (max-width: 768px) {
 body {
     background-color: var(--blue);
+    background-image: url("images/tablet_viewport_full.svg");
   }
 
   #about_flower_images {
@@ -190,13 +191,16 @@ body {
   .image_box {
     display: none;
    }
-   
+
    .image_box_2 {
     display: none;
   }
 }
 /*SMALLER SCREENS*/
 @media only screen and (max-width: 480px) {
+  body {
+     background-image: url("images/768_viewport.png");
+  }
   .child-container {
     height: auto;
   }
