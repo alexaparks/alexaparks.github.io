@@ -7,6 +7,7 @@
 
 body {
 	background-color: var(--blue);
+  overflow: hidden;
 }
 
 h1 {
@@ -122,6 +123,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -40px;
 }
 
 .text_box {
@@ -164,6 +166,14 @@ nav {
   height: 120%;
 }
 
+.overflow_enabled {
+  overflow: visible;
+}
+.about_paragraph_text {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
 /*RESPONSIVE DESIGN*/
 /*DESKTOP*/
 @media only screen and (max-width: 1050px) {
@@ -177,6 +187,92 @@ nav {
     margin-right: 10px;
   }
 }
+
+.postcards {
+  height: 450px;
+}
+
+.design_tiles {
+  height: 300px;
+}
+
+video {
+  height: 350px;
+}
+
+#about_paragraph {
+  font-style: italic;
+  margin-bottom: 10px;
+  
+
+}
+
+.col {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#large_video {
+  width: 100%;
+/*  margin-top: 50px;*/
+}
+
+#large_video_web {
+  height: 557pxpx;
+  margin-top: 40px;
+}
+
+h6 {
+  color: var(--white);
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#mobile_video {
+  height: 500px;
+}
+
+#tablet_img {
+  height: 400px;
+  margin-bottom: 60px;
+}
+
+#center {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link.active {
+  color: var(--white);
+  margin: 10px;
+}
+
+.nav-link.active:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+#hidden_link {
+  visibility: hidden;
+}
+
+.vertical_align {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#intro_text {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+/*.margin_bottom_40 {
+  margin-bottom: 40px;
+}*/
+
 /*TABLETS AND LARGER SMARTPHONES*/
 @media only screen and (max-width: 768px) {
 body {
