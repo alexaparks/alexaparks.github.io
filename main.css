@@ -41,7 +41,6 @@ img {
   width: auto;
 }
 
-/*navigation stles begin*/
 nav {
   height: 60px;
   width: 100%;
@@ -72,9 +71,7 @@ nav {
   margin-left: 30px;
   margin-top: 25px;
 }
-/*navigation styles end*/
 
-/*font styling begin */
 .pt-sans-regular {
   font-family: "PT Sans", serif;
   font-style: normal;
@@ -101,7 +98,6 @@ nav {
   font-weight: 700;
   font-style: normal;
 }
-/*font style end*/
 
 .container-fluid {
   height: 100%;
@@ -123,7 +119,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -40px;
+  margin-top: -90px;
 }
 
 .text_box {
@@ -173,21 +169,6 @@ nav {
   margin-top: 0;
   margin-bottom: 15px;
 }
-
-/*RESPONSIVE DESIGN*/
-/*DESKTOP*/
-@media only screen and (max-width: 1050px) {
-  .child-container {
-    width: 90%;
-  }
-  .text_box {
-    padding: 30px;
-  }
-  .text_box_2 {
-    margin-right: 10px;
-  }
-}
-
 .postcards {
   height: 450px;
 }
@@ -203,19 +184,16 @@ video {
 #about_paragraph {
   font-style: italic;
   margin-bottom: 10px;
-  
-
 }
 
 .col {
-   display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #large_video {
   width: 100%;
-/*  margin-top: 50px;*/
 }
 
 #large_video_web {
@@ -240,7 +218,7 @@ h6 {
 }
 
 #center {
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -260,7 +238,7 @@ h6 {
 }
 
 .vertical_align {
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -269,9 +247,23 @@ h6 {
   margin-top: 30px;
   margin-bottom: 0px;
 }
-/*.margin_bottom_40 {
-  margin-bottom: 40px;
-}*/
+
+/*RESPONSIVE DESIGN*/
+/*DESKTOP*/
+@media only screen and (max-width: 1050px) {
+  .child-container {
+    width: 90%;
+  }
+  .text_box {
+    padding: 30px;
+  }
+  .text_box_2 {
+    margin-right: 10px;
+  }
+   #hidden_page {
+    display: none;
+  }
+}
 
 /*TABLETS AND LARGER SMARTPHONES*/
 @media only screen and (max-width: 768px) {
@@ -279,16 +271,16 @@ body {
     background-color: var(--blue);
     background-image: url("images/tablet_viewport_full.svg");
   }
-
   #about_flower_images {
     display: none;
   }
-
   .image_box {
     display: none;
    }
-
    .image_box_2 {
+    display: none;
+  }
+   #hidden_page {
     display: none;
   }
 }
@@ -307,6 +299,9 @@ body {
     padding: 50px;
   }
   .image_box {
+    display: none;
+  }
+  #hidden_page {
     display: none;
   }
 }
